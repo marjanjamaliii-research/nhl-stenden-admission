@@ -17,16 +17,19 @@ Exercise Overview
 Sets are unordered, so indexing leads to unpredictable results.
   - Solution:
 Converted the set to a list before indexing.
+
 - Exercise 2 – Array Swapping
   - Problem:
 Values were overwritten during assignment.
   - Solution:
 Used a copy of the array before swapping.
+
 - Exercise 3 – Plot Bug
   - Problem:
 Precision and recall axes were swapped.
   - Solution:
 Corrected axis order.
+
 - Exercise 4 – GAN Debugging
   - Problem   (Structural)
 The code assumed a fixed batch size, causing mismatch errors when the last batch was smaller.
